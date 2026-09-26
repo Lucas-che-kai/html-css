@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/monkey-icon.png" type="image/png">
+    <title>Meu primiro site</title>
+</head>
+<body>
+    <h1>Olá, este é o meu primeiro site!</h1>
+    <hr>
+    <p>estou animado para aprender fazer site <br> vamos ver como vai ficar &lt;br&gt;</p>
+    <hr>
+    <p>vamos adicionar algun simbolos especiais (possui umalista):
+        &trade;
+        &euro;
+    </p>
+    <hr>
+    <p>agora adicionando emogis (no emogipedia)
+        &#x1F4A9;
+        &#x1F595;
+        &#x1F595;
+    </p>
+    <hr>
+    <p>Aqui eu aprendi colocar uma imagem que modifiquei em gimp</p>
+    <img src="imagens/chekai-300.jpg" alt="foto do chekai">
+    <hr>
+    <p>Aqui eu aprendi colocar uma imagem da internet</p>
+    <img src="https://tr.rbxcdn.com/180DAY-f46ede55ed7837449a0a08676434f866/256/256/Image/Webp/noFilter" alt="peppa aura">
+    <hr>
+    <p>Adicionei agora um faviicon! olha o macaco!</p>
+    <hr>
+    <h2>Aqui aprendendo as formatações</h2>
+    <p><b>negrito</b> sem valor semantica usando a letra b</p>
+    <p><strong>negrito</strong> com valor semantica com a palavra strong</p>
+    <p><i>itálico</i> com a letra i (sem valor semantico)  e <em>italico</em> usando em com valor semantica</p>
+    <p>marcando o <mark>texto</mark> com a palavra mark, usando o css depois do tag mark style.... <mark style="background-color: lime;">texto</mark> ele pode ser configurado para todo no head stle {back :alguma coisa}</p>
+    <p>texto <del>deletado</del> com tag del ;  texto <ins>inserido</ins> com tag ins ; texto <u>sublinhado</u> com tag u (não semantica)</p>
+    <p>texto sobrescrito com tag sup x<sup>20</sup> ; texto subscrito com tag sub h<sub>2</sub>o</p>
+    <p>tag code ele da o espaco para todas letras iguais segue a diferença: document.com <code>document.com</code> </p>
+    <p>tag pre  ele deixa a mesma formatacao  segue exemplo 
+        <pre>
+            <code>
+                int n;
+                printf("digite o numero :");
+                scanf("%d", &n);
+            </code>
+        </pre>
+    </p>
+    <p>uma citação (semanticamente) com tag q <q>lucas é lindo</q></p>
+    <p>uma citacao em blocos (semanticamente com o link tbm) com o tag blockquote  
+        <blockquote cite="www.youtube.com">
+            disse alguem issososoossos
+        </blockquote>
+    </p>
+    <p>dar sentido aos abreviacoes com abbr <abbr title="Universidade estadual de Londrina">UEl</abbr></p>
+    <p>texto invertido com tag bdo <bdo dir="rtl">texto invertido</bdo></p>
+    <hr>
+    <h2>Listas</h2>
+    <h3>Lista ordenada</h3>
+    <p>com tag ol e li, pode mudar de stlyle de a A I i, pode mudar o start </p>
+    <ol>
+        <li>comer</li>
+        <li>jogar</li>
+        <li>brincar</li>
+    </ol>
+    <h3>lista não ordenada</h3>
+    <p>com tag ul e li, pode ter stle de disc, square, circle</p>
+    <ul>
+        <li>comer</li>
+        <li>jogar</li>
+        <li>brincar</li>
+    </ul>
+    <p>eles podem ser misturados entre si</p>
+    <h3>lista qualquer</h3>
+    <p>com tag dl e dt como principal e dd como o subtitulo</p>
+    <dl>
+        <dt>Uel</dt>
+        <dd>Universidadeestadual de londrina</dd>
+    </dl>
+    <hr>
+    <h2>links internos</h2>
+    <p> esse é o link externo com tag a sem outros paramentros do video que assisti: <a href="https://youtu.be/LeOVXQDsAIY?si=qt8PHqrr7xuDyxMW">clique</a></p>
+    <p>esse é o link com tag a junto com paramentros do target="_blank" rel="external" (tem um rel "nofollow para nao dar mecanismo de busca  ex: propagando") depois do link : <a href="https://youtu.be/LeOVXQDsAIY?si=qt8PHqrr7xuDyxMW" target="_blank" rel="external">clique</a></p>
+    <p>essa é um link interno <a href="pag001.html" rel="next">clique</a> tem o rel next para indicar que é o proximo, o target pode nao ter ou com target "_self"</p>
+    <hr> 
+    <h2>Imagens adaptativo</h2>
+    <p>tente mexer o tamanho do site: <a href="page002.html" rel="next">aqui</a></p>
+       <hr>
+    <h2>Audio</h2>
+    <p>vamos escutar uma musica tranquila</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/In Memory of Jean Talon - The Mini Vandals.mp3" type="audio/mpeg">
+    </audio>
+    <hr>
+    <h2>videos</h2>
+    <p>tem como usar video do proprio servidor locar, mas gera muito espaco</p>
+    <p>incorporando o video do youtube apenas copiando o link</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/il_t1WVLNxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estilos</title>
+
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        h1{
+            color: darkblue;
+            background-color: aliceblue;
+        }
+
+        p{
+            color: brown;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red;">estilos</h1>
+    <hr>
+    <h2 style="background-color: aqua;">estilo inline</h2>
+    <p style="color: darkgreen; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;">seria um estilo dentro do tag com o style</p>
+    <hr>
+    <h1>estilos internos</h1>
+    <p>criar estilos separado do htmil, mais orgnizado, no head</p>
+    <hr>
+    <h1>estilos externos</h1>
+    <p><a href="pag002.html">clique</a></p>
+    <p>cores podem ser escrito em ingles, rgb, hexadecimal, hsl....</p>
+    <hr>
+    <h1>Degrade</h1>
+    <p>clique <a href="page-degrade.html">aqui</a> para visualizar o degrade</p>
+    <img src="imagem/image.png" alt="implementacao">
+    <hr>
+    <h1>fontes </h1>
+    <p>fontes existe 3 tipos, voce coloca o que voce quer, pode ter uma safe fonte na qual se um dispositivo nao tiver a fonte assumira aquele</p>
+    <p>fontes size: absolutas e relativas (1em =16px/É relativa ao tamanho da fonte do elemento pai. use px ou em)</p>
+    <p>alguns fontes podem ter peso usando font-weight  (lighter, normal, bold, bolder/ 100~900)</p>
+    <p>fontes podem ter style (font-style)/ font-decoration</p>
+    <p>fonte pode ser da internet basta copiar e colocar em baixo do style</p>
+    <img src="imagem/image02-shorthand.png" alt="shorthand font">
+    <p>font face : font externo/ pode colocar com mesmo nome para que caso um nao funcionar aparece o outro</p>
+    <img src="imagem/image-fonteexeterno.png" alt="fontface">
+    <hr>
+    <h1>alinhamento</h1>
+    <p>text-align: right, center, left</p>
+    <p>text-align: justify</p>
+    <p>text-indent: 20px   (espacamento do paragrafo)</p>
+    <hr>
+    <p>posso identificar cada elemento:  &lt;id: "principal"&gt; e usar h1#principal</p>
+    <p>quando é mais que uma igual id eu uso class; no lugar do style vai ser : .principal ; posso colocar mais que um class posso colocar nomeio de um texto com span</p>
+    <hr>
+    <h1>pseudo codigo: houver</h1>
+    <img src="imagem/image-hover.png" alt="houver">
+    <p>ao passar pode aconter uma interacao(aparecer/ mudar de cor)/ div = uma caixa/ :visited/ :hover / :activie(clicado)</p>
+    <pre>
+
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-element
+    > = children
+
+    </pre>
+    <hr> 
+    <h1>box</h1>
+    <p>weidt width border padding outline margin  </p>
+    <p>box-level (div)/ inline-level (span)</p>
+    <p>ultilize o dev stool do google que ajuda ver o espaco </p>
+    <br>
+    <p>marign: auto (centralizar)</p>
+    <br>
+    <h2>shorthand</h2>
+    <p>border/ outline : width style color</p>
+    <p>padding: top right bottom left (se tudo igual pode colocar so uma) (duas = cima+baixo, esquerda e direita)</p>
+    <p>margin iguak o padding e pode colocar auto </p>
+    <hr>
+    <p>antes tudo usa div agora div+semantica: header(nav  ), main(section (article (aside))), footer</p>
+    <p>box shadow muito bom: usa o google dev tools melhor: px px px color</p>
+    <p>border radius</p>
+    
+</body>
+</html>                                                                                                 
