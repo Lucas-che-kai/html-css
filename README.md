@@ -5,7 +5,7 @@ Bem-vindo ao meu repositório de estudos de desenvolvimento web! Este espaço fo
 ## 🚀 Acesse o Site Online
 O projeto está publicado e pode ser visualizado diretamente no navegador através do link abaixo:
 
-👉 **[Clique aqui para acessar o Guia dos Meus Sites](https://github.io)**
+👉 **[Clique aqui para acessar o Guia dos Meus Sites]([https://github.io](https://lucas-che-kai.github.io/html-css/index.html))**
 
 ---
 
